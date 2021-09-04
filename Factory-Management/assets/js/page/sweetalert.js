@@ -48,33 +48,34 @@ $(function() {
     }    
     function showConfirmMessage() {
         swal({
-            title: "Are you sure?",
-            text: "You will not be able to recover this imaginary file!",
+            title: "Bạn có chắc chắn muốn xóa?",
+            text: "Sau khi xóa không thể hoàn tác!",
             type: "warning",
             showCancelButton: true,
+            cancelButtonText: "Quay lại",
             confirmButtonColor: "#dc3545",
-            confirmButtonText: "Yes, delete it!",
+            confirmButtonText: "Có",
             closeOnConfirm: false
         }, function () {
-            swal("Deleted!", "Your imaginary file has been deleted.", "success");
+            swal("Đã xóa", "File đã bị xóa vĩnh viễn", "success");
         });
     }    
     function showCancelMessage() {
         swal({
-            title: "Are you sure?",
-            text: "You will not be able to recover this imaginary file!",
+            title: "Bạn có chắc chắn muốn xóa?",
+            text: "Sau khi xóa không thể hoàn tác!",
             type: "warning",
             showCancelButton: true,
             confirmButtonColor: "#dc3545",
-            confirmButtonText: "Yes, delete it!",
-            cancelButtonText: "No, cancel plx!",
+            confirmButtonText: "Có",
+            cancelButtonText: "Không",
             closeOnConfirm: false,
             closeOnCancel: false
         }, function (isConfirm) {
             if (isConfirm) {
-                swal("Deleted!", "Your imaginary file has been deleted.", "success");
+                swal("Đã xóa", "success");
             } else {
-                swal("Cancelled", "Your imaginary file is safe :)", "error");
+                swal("Đã hủy", "error");
             }
         });
     }    

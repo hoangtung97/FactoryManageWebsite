@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en" dir="ltr">
 
-<!-- soccer/project/register.html  07 Jan 2020 03:42:43 GMT -->
+<!-- soccer/project/login.html  07 Jan 2020 03:42:43 GMT -->
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -9,7 +9,7 @@
 
 <link rel="icon" href="favicon.ico" type="image/x-icon"/>
 
-<title>:: Soccer :: Register</title>
+<title>Quản lý nhà máy</title>
 
 <!-- Bootstrap Core and vandor -->
 <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
@@ -18,44 +18,43 @@
 <link rel="stylesheet" href="assets/css/main.css"/>
 <link rel="stylesheet" href="assets/css/theme1.css"/>
 
-
 </head>
 <body class="font-montserrat">
 
 <div class="auth">
     <div class="auth_left">
         <div class="card">
-            <div class="text-center mb-5">
+            <div class="text-center mb-2">
                 <a class="header-brand" href="index-2.html"><i class="fa fa-soccer-ball-o brand-logo"></i></a>
             </div>
             <div class="card-body">
-                <div class="card-title">Create new account</div>
+                <div class="card-title">Đăng nhập:</div>
                 <div class="form-group">
-                    <label class="form-label">Name</label>
-                    <input type="text" class="form-control" placeholder="Enter name">
+                    <select class="custom-select">
+                        <option>Quyền 1</option>
+                        <option>Quyền 2</option>
+                        <option>Quyền 3</option>
+                    </select>
                 </div>
                 <div class="form-group">
-                    <label class="form-label">Email address</label>
-                    <input type="email" class="form-control" placeholder="Enter email">
+                    <label class="form-label">Tên đăng nhập</label>
+                    <input type="text" class="form-control" id="exampleInputUsername" aria-describedby="Username" placeholder="Tên đăng nhập">
                 </div>
                 <div class="form-group">
-                    <label class="form-label">Password</label>
-                    <input type="password" class="form-control" placeholder="Password">
+                    <label class="form-label">Mật khẩu</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Nhập mật khẩu">
                 </div>
                 <div class="form-group">
                     <label class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" />
-                    <span class="custom-control-label">Agree the <a href="#">terms and policy</a></span>
+                    <span class="custom-control-label">Nhớ mật khẩu</span>
                     </label>
                 </div>
                 <div class="form-footer">
-                    <button type="submit" class="btn btn-primary btn-block">Create new account</button>
+                    <a href="index-2.html" class="btn btn-primary btn-block" title="">Đăng nhập</a>
                 </div>
             </div>
-            <div class="text-center text-muted">
-                Already have account? <a href="login.html">Sign in</a>
-            </div>
-        </div>
+        </div>        
     </div>
     <div class="auth_right full_img"></div>
 </div>
@@ -64,5 +63,5 @@
 <script src="assets/js/core.js"></script>
 </body>
 
-<!-- soccer/project/register.html  07 Jan 2020 03:42:43 GMT -->
+<!-- soccer/project/login.html  07 Jan 2020 03:42:43 GMT -->
 </html>

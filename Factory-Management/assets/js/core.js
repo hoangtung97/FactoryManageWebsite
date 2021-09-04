@@ -205,6 +205,8 @@ $(document).ready(function() {
 		}
     });
 
+    
+
     // Top bar sticky
 	$(".setting_switch .btn-fixnavbar").on('change',function() {
 		if(this.checked) {
@@ -254,32 +256,22 @@ $(document).ready(function() {
 		}
     });
     
-    // Box Shadow
-	$(".setting_switch .btn-boxshadow").on('change',function() {
-		if(this.checked) {
-			$('.card, .btn, .progress').addClass('box_shadow');
-		}else{
-			$('.card, .btn, .progress').removeClass('box_shadow');
-		}
-    });
+    // // Box Shadow
+	// $(".setting_switch .btn-boxshadow").on('change',function() {
+	// 	if(this.checked) {
+	// 		$('.card, .btn, .progress').addClass('box_shadow');
+	// 	}else{
+	// 		$('.card, .btn, .progress').removeClass('box_shadow');
+	// 	}
+    // });
 
-    // RTL Support
-	$(".setting_switch .btn-rtl").on('change',function() {
-		if(this.checked) {
-			$('body').addClass('rtl');
-		}else{
-			$('body').removeClass('rtl');
-		}
-    });
+    window.onload = function(){
+        $('.card, .btn, .progress').addClass('box_shadow');
+    }
+    // window.onload = function(){
+    //     $('body').addClass('dark-mode');
+    // }
 
-    // RTL Support
-	$(".setting_switch .btn-boxlayout").on('change',function() {
-		if(this.checked) {
-			$('body').addClass('boxlayout');
-		}else{
-			$('body').removeClass('boxlayout');
-		}
-    });
 });
 
 // Search list js
