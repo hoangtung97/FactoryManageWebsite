@@ -8901,7 +8901,9 @@ a:hover {
 .auth {
 	display: flex;
 	height: 100vh;
-	align-items: center
+	align-items: center;
+	background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+	background-size: cover;
 }
 
 .auth .header-brand {
@@ -8913,12 +8915,11 @@ a:hover {
 	display: flex;
 	align-items: center;
 	height: 100vh;
-	width: 400px;
+	width: 500px;
 	padding: 0 20px
 }
 
 .auth .auth_right {
-	width: calc(100% - 400px);
 	text-align: center
 }
 
@@ -9517,7 +9518,7 @@ a:hover {
 }
 
 .user_div .card {
-	background: transparent
+	background: transparent;
 }
 
 .user_div .user_avatar {
@@ -10491,13 +10492,19 @@ img {
 	border-radius: .55rem;
 	border-color: #E6E9ED;
 	position: relative;
-	width: 100%
+	width: 100%;
 }
 
 .card.box_shadow {
 	-moz-box-shadow: 0 3px 10px rgba(41, 43, 48, 0.08);
 	-webkit-box-shadow: 0 3px 10px rgba(41, 43, 48, 0.08);
 	box-shadow: 0 3px 10px rgba(41, 43, 48, 0.08)
+}
+
+.card-body {
+	padding: 20px 20px;
+	flex: 1 1 auto;
+	position: relative
 }
 
 .card .card {
