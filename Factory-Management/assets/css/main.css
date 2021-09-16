@@ -16132,7 +16132,7 @@ svg {
 
 .timeline_item {
 	border-left: 1px solid #D1D3D4;
-	padding: 20px 30px;
+	padding: 5px 30px;
 	position: relative
 }
 
@@ -16144,12 +16144,12 @@ svg {
 	left: -15px;
 	width: 30px;
 	border: 2px solid #fff;
-	top: 20px;
+	top: 5px;
 	padding: 2px
 }
 
 .timeline_item .msg {
-	margin: 15px 0
+	margin: 5px 0
 }
 
 .example {
@@ -17835,3 +17835,79 @@ svg {
 	color: #80868e
 }
 
+.space-linkbutton {
+	padding-bottom:5px;
+}
+.comment {
+	padding:0px 0px 40px 15px;
+}
+.dropdown-card {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#myInput {
+	
+	background-position: 10px 12px; /* Position the search icon */
+	background-repeat: no-repeat; /* Do not repeat the icon image */
+	width: 80%; /* Full-width */
+	font-size: 14px; /* Increase font-size */
+	padding: 5px 20px 5px 20px; /* Add some padding */
+	border: 1px solid #ddd; /* Add a grey border */
+	margin-bottom: 12px; /* Add some space below the input */
+  }
+  
+  #myUL {
+	/* Remove default list styling */
+	list-style-type: none;
+	padding: 0 10px 20px 10px;
+	margin: 0;
+  }
+  
+  #myUL li a {
+	border: 1px solid #ddd; /* Add a border to all links */
+	margin-top: -1px; /* Prevent double borders */
+	background-color: #f6f6f6; /* Grey background color */
+	padding: 10px; /* Add some padding */
+	text-decoration: none; /* Remove default text underline */
+	font-size: 14px; /* Increase the font-size */
+	color: black; /* Add a black text color */
+	display: block; /* Make it into a block element to fill the whole list */
+  }
+  
+  #myUL li a:hover:not(.header) {
+	background-color: #eee; /* Add a hover effect to all links, except for headers */
+  }
+
+  #myInput2 {
+	
+	background-position: 10px 12px; /* Position the search icon */
+	background-repeat: no-repeat; /* Do not repeat the icon image */
+	width: 80%; /* Full-width */
+	font-size: 14px; /* Increase font-size */
+	padding: 5px 20px 5px 20px; /* Add some padding */
+	border: 1px solid #ddd; /* Add a grey border */
+	margin-bottom: 12px; /* Add some space below the input */
+  }
+  
+  #myUL2 {
+	/* Remove default list styling */
+	list-style-type: none;
+	padding: 0 10px 20px 10px;
+	margin: 0;
+  }
+  
+  #myUL2 li a {
+	border: 1px solid #ddd; /* Add a border to all links */
+	margin-top: -1px; /* Prevent double borders */
+	background-color: #f6f6f6; /* Grey background color */
+	padding: 10px; /* Add some padding */
+	text-decoration: none; /* Remove default text underline */
+	font-size: 14px; /* Increase the font-size */
+	color: black; /* Add a black text color */
+	display: block; /* Make it into a block element to fill the whole list */
+  }
+  
+  #myUL2 li a:hover:not(.header) {
+	background-color: #eee; /* Add a hover effect to all links, except for headers */
+  }
