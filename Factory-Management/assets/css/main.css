@@ -16919,7 +16919,7 @@ svg {
 }
 
 .team-info li+li {
-	margin-left: -10px
+	margin-left: -5px
 }
 
 .team-info li img {
@@ -17035,6 +17035,7 @@ svg {
 .modal .modal-header .close:before {
 	display: none
 }
+
 
 .top_banner {
 	padding-top: 80px !important;
@@ -17833,3 +17834,4 @@ svg {
 .dark-mode .page-header .right .nav-pills .nav-link {
 	color: #80868e
 }
+
