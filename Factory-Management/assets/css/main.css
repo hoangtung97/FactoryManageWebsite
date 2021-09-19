@@ -17846,7 +17846,7 @@ svg {
 	padding-right: 10px;
 }
 
-#myInput {
+#AddMember {
 	
 	background-position: 10px 12px; /* Position the search icon */
 	background-repeat: no-repeat; /* Do not repeat the icon image */
@@ -17857,14 +17857,14 @@ svg {
 	margin-bottom: 12px; /* Add some space below the input */
   }
   
-  #myUL {
+  #Addmem {
 	/* Remove default list styling */
 	list-style-type: none;
 	padding: 0 10px 20px 10px;
 	margin: 0;
   }
   
-  #myUL li a {
+  #Addmem li a {
 	border: 1px solid #ddd; /* Add a border to all links */
 	margin-top: -1px; /* Prevent double borders */
 	background-color: #f6f6f6; /* Grey background color */
@@ -17875,11 +17875,11 @@ svg {
 	display: block; /* Make it into a block element to fill the whole list */
   }
   
-  #myUL li a:hover:not(.header) {
+  #Addmem li a:hover:not(.header) {
 	background-color: #eee; /* Add a hover effect to all links, except for headers */
   }
 
-  #myInput2 {
+  #AddToProject {
 	
 	background-position: 10px 12px; /* Position the search icon */
 	background-repeat: no-repeat; /* Do not repeat the icon image */
@@ -17890,14 +17890,14 @@ svg {
 	margin-bottom: 12px; /* Add some space below the input */
   }
   
-  #myUL2 {
+  #Project2 {
 	/* Remove default list styling */
 	list-style-type: none;
 	padding: 0 10px 20px 10px;
 	margin: 0;
   }
   
-  #myUL2 li a {
+  #Project2 li a {
 	border: 1px solid #ddd; /* Add a border to all links */
 	margin-top: -1px; /* Prevent double borders */
 	background-color: #f6f6f6; /* Grey background color */
@@ -17908,6 +17908,6 @@ svg {
 	display: block; /* Make it into a block element to fill the whole list */
   }
   
-  #myUL2 li a:hover:not(.header) {
+  #Project2 li a:hover:not(.header) {
 	background-color: #eee; /* Add a hover effect to all links, except for headers */
   }
